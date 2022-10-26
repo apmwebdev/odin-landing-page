@@ -1,0 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
+body, body > div, .main > div {
+    display: flex;
+}
