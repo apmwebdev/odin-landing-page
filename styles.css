@@ -9,7 +9,6 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     min-height: 100vh;
     flex-direction: column;
@@ -73,6 +72,8 @@ body {
     color: var(--white);
 }
 
+/*TODO: Add color for bg of hero image*/
+
 .quote-section {
     background-color: var(--light-gray);
     color: var(--dark-blue);
@@ -82,3 +83,58 @@ body {
     background-color: var(--blue);
     color: var(--white);
 }
+
+/* Text */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header a {
+    text-decoration: none;
+    /*font-size: 18px;*/
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.tiles-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-cite {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.action-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*
+TODO: Fix width of action section
+TODO: Fix spacing everywhere
+TODO: Fix tile styling
+TODO: Fix button styling
+*/
