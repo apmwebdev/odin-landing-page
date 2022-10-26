@@ -6,66 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
   </head>
-  <body>
-    <header class="header width-limited">
+  <body class="flex">
+    <header class="header main-width flex">
       <div class="header-logo">Header Logo</div>
-      <div class="header-link-container">
+      <div class="header-link-container flex">
         <div class="header-link"><a href="#">Header Link</a></div>
         <div class="header-link"><a href="#">Header Link</a></div>
         <div class="header-link"><a href="#">Header Link</a></div>
       </div>
     </header>
-    <div class="main">
-      <section class="hero-section width-limited">
-        <div class="hero-left">
-          <div class="hero-title">This website is awesome</div>
-          <p>
-            This website has some subtext that goes here under the main
-            tile. It's a smaller font and the color is lower contrast.
-          </p>
-          <button>Sign up</button>
-        </div>
-        <div class="hero-right">This is a placeholder for an image</div>
-      </section>
-      <section class="tiles-section width-limited">
-        <header class="tiles-title">Some random information</header>
-        <div class="tiles-container">
-          <div class="tile">
-            <div class="tile-pic"></div>
-            <div class="tile-text">desc</div>
+    <div class="main flex">
+      <section class="hero-section">
+        <div class="hero-container main-width flex">
+          <div class="hero-left">
+            <div class="hero-title">This website is awesome</div>
+            <p>
+              This website has some subtext that goes here under the main
+              tile. It's a smaller font and the color is lower contrast.
+            </p>
+            <button>Sign up</button>
           </div>
-          <div class="tile">
-            <div class="tile-pic"></div>
-            <div class="tile-text">desc</div>
-          </div>
-          <div class="tile">
-            <div class="tile-pic"></div>
-            <div class="tile-text">desc</div>
-          </div>
-          <div class="tile">
-            <div class="tile-pic"></div>
-            <div class="tile-text">desc</div>
-          </div>
+          <div class="hero-right">This is a placeholder for an image</div>
         </div>
       </section>
-      <section class="quote-section width-limited">
-        <div class="quote">
-          This is an inspiring quote, or a testimonial from a customer. Maybe
-          it's just filling up space, or maybe people will actually read it.
-          Who knows? All I know is that it looks nice.
-        </div>
-        <div class="attribution">— Abraham Lincoln</div>
+      <section class="tiles-section narrow flex">
+          <header class="tiles-title">Some random information</header>
+          <div class="tiles-container flex">
+            <div class="tile">
+              <div class="tile-pic"></div>
+              <div class="tile-text">desc</div>
+            </div>
+            <div class="tile">
+              <div class="tile-pic"></div>
+              <div class="tile-text">desc</div>
+            </div>
+            <div class="tile">
+              <div class="tile-pic"></div>
+              <div class="tile-text">desc</div>
+            </div>
+            <div class="tile">
+              <div class="tile-pic"></div>
+              <div class="tile-text">desc</div>
+            </div>
+          </div>
       </section>
-      <section class="action-section width-limited">
+      <section class="quote-section">
+        <div class="quote-container narrow flex">
+          <div class="quote">
+            This is an inspiring quote, or a testimonial from a customer. Maybe
+            it's just filling up space, or maybe people will actually read it.
+            Who knows? All I know is that it looks nice.
+          </div>
+          <div class="quote-cite">— Abraham Lincoln</div>
+        </div>
+      </section>
+      <section class="action-section main-width flex">
         <div class="action-left">
           <header class="action-title">Call to action! It's time!</header>
           <div class="action-text">
             Sign up for our product by clicking that button right over there!
           </div>
         </div>
-        <div class="action-right"><button>Sign up</button></div>
+        <div class="action-right">
+          <button>Sign up</button>
+        </div>
       </section>
     </div>
-    <footer class="footer width-limited">Copyright © Blah Blah</footer>
+    <footer class="footer main-width flex">Copyright © Blah Blah</footer>
   </body>
 </html>
