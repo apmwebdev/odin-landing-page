@@ -203,7 +203,7 @@ button {
 
 /* Other Styles */
 
-button, .tile-pic, .action-container {
+button, .tile-pic, .action-container, .hero-right {
     border-radius: 16px;
 }
 
