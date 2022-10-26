@@ -135,7 +135,7 @@ body {
     color: var(--light-gray);
 }
 
-.header-logo {
+.header-logo, .hero-title {
     color: var(--white);
 }
 
