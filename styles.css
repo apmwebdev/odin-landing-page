@@ -203,10 +203,15 @@ button {
 
 /* Other Styles */
 
-.tile-pic, .action-container {
+button, .tile-pic, .action-container {
     border-radius: 16px;
 }
 
-/*
-TODO: Fix button styling
-*/
+button {
+    border: 2px solid var(--white);
+    padding: 12px 36px;
+}
+
+button:active {
+    background-color: var(--dark-blue);
+}
