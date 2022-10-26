@@ -19,7 +19,7 @@ body {
     padding: 0 10%;
 }
 
-.narrow {
+.narrow-width {
     padding: 0 20%;
 }
 
@@ -34,6 +34,11 @@ body {
 
 .header, .footer {
     align-items: center;
+}
+
+.hero-right {
+    align-items: center;
+    justify-content: center;
 }
 
 .tiles-section {
@@ -72,7 +77,9 @@ body {
     color: var(--white);
 }
 
-/*TODO: Add color for bg of hero image*/
+.hero-right {
+    background-color: #666;
+}
 
 .quote-section {
     background-color: var(--light-gray);
@@ -137,4 +144,5 @@ TODO: Fix width of action section
 TODO: Fix spacing everywhere
 TODO: Fix tile styling
 TODO: Fix button styling
+TODO: Change width padding to be pixels instead of percentage?
 */
