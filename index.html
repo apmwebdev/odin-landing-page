@@ -7,16 +7,18 @@
     <title>Landing Page</title>
   </head>
   <body class="flex">
-    <header class="header main-width flex">
-      <div class="header-logo">Header Logo</div>
-      <div class="header-link-container flex">
-        <div class="header-link"><a href="#">Header Link</a></div>
-        <div class="header-link"><a href="#">Header Link</a></div>
-        <div class="header-link"><a href="#">Header Link</a></div>
+    <header class="header top-container flex">
+      <div class="header-content main-width flex">
+        <div class="header-logo">Header Logo</div>
+        <div class="header-link-container flex">
+          <div class="header-link"><a href="#">Header Link</a></div>
+          <div class="header-link"><a href="#">Header Link</a></div>
+          <div class="header-link"><a href="#">Header Link</a></div>
+        </div>
       </div>
     </header>
     <div class="main flex">
-      <section class="hero-section">
+      <section class="hero-section top-container flex">
         <div class="hero-container main-width flex">
           <div class="hero-left">
             <div class="hero-title">This website is awesome</div>
@@ -29,9 +31,12 @@
           <div class="hero-right flex">This is a placeholder for an image</div>
         </div>
       </section>
-      <section class="tiles-section narrow-width flex">
-          <header class="tiles-title">Some random information</header>
-          <div class="tiles-container flex">
+      <section class="tiles-section">
+        <div class="flex top-container">
+          <header class="tiles-title narrow-width">Some random information</header>
+        </div>
+        <div class="flex top-container">
+          <div class="tiles-container flex narrow-width">
             <div class="tile">
               <div class="tile-pic"></div>
               <div class="tile-text">desc</div>
@@ -49,8 +54,9 @@
               <div class="tile-text">desc</div>
             </div>
           </div>
+        </div>
       </section>
-      <section class="quote-section">
+      <section class="quote-section top-container flex">
         <div class="quote-container narrow-width flex">
           <div class="quote-text">
             This is an inspiring quote, or a testimonial from a customer. Maybe
@@ -60,18 +66,23 @@
           <div class="quote-cite">— Abraham Lincoln</div>
         </div>
       </section>
-      <section class="action-section main-width flex">
-        <div class="action-left">
-          <header class="action-title">Call to action! It's time!</header>
-          <div class="action-text">
-            Sign up for our product by clicking that button right over there!
+      <section class="action-section top-container flex">
+        <div class="action-container main-width flex">
+          <div class="action-content narrow-width flex">
+            <div class="action-left">
+              <header class="action-title">Call to action! It's time!</header>
+              <div class="action-text">
+                Sign up for our product by clicking that button right over
+                there!
+              </div>
+            </div>
+            <div class="action-right flex">
+              <button>Sign up</button>
+            </div>
           </div>
-        </div>
-        <div class="action-right">
-          <button>Sign up</button>
         </div>
       </section>
     </div>
-    <footer class="footer main-width flex">Copyright © Blah Blah</footer>
+    <footer class="footer top-container">Copyright © Blah Blah</footer>
   </body>
 </html>
