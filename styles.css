@@ -41,6 +41,10 @@ body {
     gap: 24px;
 }
 
+.header, .footer {
+    align-items: center;
+}
+
 .main {
     flex: 1;
     flex-direction: column;
@@ -61,13 +65,20 @@ body {
     flex: 1;
 }
 
-.header, .footer {
-    align-items: center;
+.hero-title, .hero-text {
+    padding-bottom: 12px;
 }
 
 .hero-right {
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+    border: 3px solid var(--white);
+}
+
+.hero-right img {
+    flex: 1 1 auto;
+    width: 100%;
 }
 
 .tiles-section {
@@ -86,7 +97,7 @@ body {
 }
 
 .tile {
-    flex: 0 1 auto;
+    flex: 0 1 0;
 }
 
 .tile-text {
@@ -97,7 +108,14 @@ body {
     flex: 0 1 auto;
     width: 200px;
     height: 200px;
-    border: 4px solid var(--blue);
+    border: 3px solid var(--dark-blue);
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.tile-pic img {
+    width: 200px;
+    height: 200px;
 }
 
 .quote-container {
@@ -119,6 +137,10 @@ body {
     padding: 0 36px;
     justify-content: flex-end;
     align-items: center;
+}
+
+.footer {
+    padding: 24px;
 }
 
 /* Colors */
@@ -212,6 +234,26 @@ button {
     padding: 12px 36px;
 }
 
+#hero-button::after {
+    content: "Cat";
+}
+
+#hero-button:active::after {
+    content: "Meow!";
+}
+
+#action-button::after {
+    content: "Click me";
+}
+
+#action-button:active::after {
+    content: "Thanks!";
+}
+
 button:active {
     background-color: var(--dark-blue);
+}
+
+a:hover, a:active {
+    text-decoration: underline;
 }
