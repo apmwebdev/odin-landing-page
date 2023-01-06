@@ -235,7 +235,11 @@ button {
 }
 
 #hero-button::after {
-    content: "Cat";
+    content: "Cat button";
+}
+
+#hero-button:hover::after {
+    content: "Click me!";
 }
 
 #hero-button:active::after {
